@@ -5,8 +5,9 @@
 
 #date 2020-05-11
 #speaker <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
-#title 
+#title A quick look at impredicativity
 #abstract
+Type inference for parametric polymorphism is wildly successful, but has always suffered from an embarrassing flaw: polymorphic types are themselves not first class. We present Quick Look, a practical, implemented, and deployable design for impredicative type inference. To demonstrate our claims, we have modified GHC, a production-quality Haskell compiler, to support impredicativity.  The changes required are modest, localised, and are fully compatible with GHC’s myriad other type system extensions.
 #audience
 #tags #research
 
@@ -40,7 +41,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 
 #date 2020-05-25
 #speaker <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
-#title
+#title Resource types for verification and synthesis 
 #abstract
 #audience
 #tags #research
@@ -59,10 +60,23 @@ For decades, formal methods have offered the promise of software that doesn’t 
 
 #date 2020-06-08
 #speaker <a href="http://homepages.inf.ed.ac.uk/wadler/">Phil Wadler</a> (University of Edinburgh)
-#title
+#title Featherweight Go
 #abstract
-#audience
-#tags #research
+The Go programming language was released by Google a decade ago, and
+  recently its authors have considered how to extend it with generic
+  types.  This talk describes a design for generics in Go founded in
+  the principles of programming languages, inspired by previous work
+  on Featherweight Java by Igarashi, Pierce, and Wadler.  We begin by
+  presenting Featherweight Go (FG), a simplified version of the Go
+  language, and Featherweight Generic Go (FGG), an extension of FG to
+  support generic types.  For each we show standard preservation and
+  progress results.  Finally, we show that FGG can be translated into
+  FG by a process known as \emph{monomorphisation}, and show that the
+  translation preserves typing and operational semantics.
+#audience Researchers
+#bio
+Philip Wadler is Professor of Theoretical Computer Science at the University of Edinburgh and Senior Research Fellow at IOHK. He is an ACM Fellow, a Fellow of the Royal Society of Edinburgh, and editor-in-chief of Proceedings of the ACM for Programming Languages. He is past chair of ACM SIGPLAN, past holder of a Royal Society-Wolfson Research Merit Fellowship, winner of the SIGPLAN Distinguished Service Award, and a winner of the POPL Most Influential Paper Award. Previously, he worked or studied at Stanford, Xerox Parc, CMU, Oxford, Chalmers, Glasgow, Bell Labs, and Avaya Labs, and visited as a guest professor in Copenhagen, Sydney, and Paris. He has an h-index of over 70 with more than 25,000 citations to his work, according to Google Scholar. He contributed to the designs of Haskell, Java, and XQuery, and is co-author of Introduction to Functional Programming (Prentice Hall, 1988), XQuery from the Experts (Addison Wesley, 2004), Generics and Collections in Java (O'Reilly, 2006), and Programming Language Foundations in Agda (2018). He has delivered invited talks in locations ranging from Aizu to Zurich.
+#tags #research #work-in-progress
 
 --------------------------------------------------------------------------------
 
@@ -88,10 +102,10 @@ There are many examples that demonstrate how to create a strongly typed abstract
 
 #date 2020-06-29
 #speaker <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
-#title
+#title Algorithm Design with Haskell
 #abstract
 #audience
-#tags #research
+#tags #research #pearl #tutorial #applications #programming
 
 --------------------------------------------------------------------------------
 
