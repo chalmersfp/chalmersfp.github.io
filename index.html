@@ -64,6 +64,23 @@ by <a href="">Simon Peyton Jones</a> (Microsoft Research)<br>
 <span style='font-size:larger'>""</span><br>
 by <a href="">Benjamin Pierce</a> (UPenn)<br>
 <hr>
+QuickCheck-style property-based testing relies on random generators that produce well-distributed test data.
+When the properties under test involve sparse preconditions, test generators must be written so as to produce
+constrained test data satisfying these preconditions. But what should such generators do when choices made
+early on render later constraints unsatisfiable? How can generation effort be reused, both when failure is a
+possibility and, more generally, when parts of a complex test are relatively expensive to generate? The natural
+answer to all these questions is to use backtracking.
+<br>
+We propose a new generator abstraction, extending QuickCheck generators with local backtracking by
+enriching the key Gen monad to support backtracking under the hood; and we show, in this setting, how local
+backtracking can significantly improve end-to-end bug-finding performance in two case studies. We show, first,
+that adding a small amount of backtracking improves the performance of a generator for well-typed System
+F terms by 1.6× on average. When generating System F terms, backtracking allows us to avoid completely
+discarding generation effort in the presence of uninhabitable types, which we find allows us to produce larger,
+more effective test cases—requiring 2.1× fewer tests, on average, to discover a bug. Second, we show that
+adding backtracking to an existing, highly tuned generator for random machine states in a testing framework
+for dynamic information flow control monitors allows us to amortize an expensive step in test-case generation,
+improving bug-finding performance by 3.9× with only a tiny change in the generator.
 <br>
 <strong>audience</strong>: 
 <hr>
@@ -105,22 +122,24 @@ by <a href="">Phil Wadler</a> (University of Edinburgh)<br>
 <p> </p>
 <div class='w3-container w3-padding-small w3-border-blue w3-border'>
 <strong>June 15</strong><br>
-<span style='font-size:larger'>""</span><br>
+<span style='font-size:larger'>"Higher-order concolic testing"</span><br>
 by <a href="">Robby Findler</a> (Northwestern University)<br>
 <hr>
+I will explain what higher-order concolic testing is (using concolic testing on programs that accept functions as inputs). I will try to be very example-driven to explain what we've figured out about the problem so far.
 <br>
-<strong>audience</strong>: 
+<strong>audience</strong>: People need to be used to reading short fragments of code with lambdas in them
 <hr>
-<strong>#research</strong><span style='float:right'><a href="http://chalmers.zoom.us/">Zoom link for Monday June 15, 6am PDT / 10am EDT / 16:00 CET</a></span>
+<strong>#research #work-in-progress</strong><span style='float:right'><a href="http://chalmers.zoom.us/">Zoom link for Monday June 15, 6am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
 <p> </p>
 <div class='w3-container w3-padding-small w3-border-blue w3-border'>
 <strong>June 22</strong><br>
-<span style='font-size:larger'>""</span><br>
+<span style='font-size:larger'>"Strongly Typed System F in GHC"</span><br>
 by <a href="">Stephanie Weirich</a> (UPenn)<br>
 <hr>
+There are many examples that demonstrate how to create a strongly typed abstract syntax in Haskell for a language with a simple type system. But there are many fewer examples that allow the embedded language to be polymorphic. I will work through what it takes to do so, touching on variable binding representations, and exploring the limits of dependently-typed programming in GHC.
 <br>
-<strong>audience</strong>: 
+<strong>audience</strong>: Haskellers that are familiar with GADTs and/or strongly typed abstract syntax.
 <hr>
 <strong>#research</strong><span style='float:right'><a href="http://chalmers.zoom.us/">Zoom link for Monday June 22, 6am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
