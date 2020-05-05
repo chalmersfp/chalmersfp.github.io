@@ -113,8 +113,11 @@ showTalks now ts zoom =
     , hr
     ] ++ abstract t ++
     [ br
-    , strong "audience" ++ ": " ++ audience t
-    , hr
+    ] ++
+    [ strong "audience" ++ ": " ++ audience t
+    | not (null (audience t))
+    ] ++
+    [ hr
     , strong (unwords (tags t))
       ++ ralign (link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 6am PDT / 10am EDT / 16:00 CET"))
     , "</div>"
