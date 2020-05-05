@@ -1,0 +1,98 @@
+
+#zoom http://chalmers.zoom.us/
+
+--------------------------------------------------------------------------------
+
+#date 2020-05-11
+#speaker <a href="">Simon Peyton Jones</a> (Microsoft Research)
+#title 
+#abstract
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-05-18
+#speaker <a href="">Benjamin Pierce</a> (UPenn)
+#title
+#abstract
+QuickCheck-style property-based testing relies on random generators that produce well-distributed test data.
+When the properties under test involve sparse preconditions, test generators must be written so as to produce
+constrained test data satisfying these preconditions. But what should such generators do when choices made
+early on render later constraints unsatisfiable? How can generation effort be reused, both when failure is a
+possibility and, more generally, when parts of a complex test are relatively expensive to generate? The natural
+answer to all these questions is to use backtracking.
+<br>
+We propose a new generator abstraction, extending QuickCheck generators with local backtracking by
+enriching the key Gen monad to support backtracking under the hood; and we show, in this setting, how local
+backtracking can significantly improve end-to-end bug-finding performance in two case studies. We show, first,
+that adding a small amount of backtracking improves the performance of a generator for well-typed System
+F terms by 1.6× on average. When generating System F terms, backtracking allows us to avoid completely
+discarding generation effort in the presence of uninhabitable types, which we find allows us to produce larger,
+more effective test cases—requiring 2.1× fewer tests, on average, to discover a bug. Second, we show that
+adding backtracking to an existing, highly tuned generator for random machine states in a testing framework
+for dynamic information flow control monitors allows us to amortize an expensive step in test-case generation,
+improving bug-finding performance by 3.9× with only a tiny change in the generator.
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-05-25
+#speaker <a href="">Nadia Polikarpova</a> (UCSD)
+#title
+#abstract
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-06-01
+#speaker <a href="">Kathleen Fisher</a> (Tufts)
+#title
+#abstract
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-06-08
+#speaker <a href="">Phil Wadler</a> (University of Edinburgh)
+#title
+#abstract
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-06-15
+#speaker <a href="">Robby Findler</a> (Northwestern University)
+#title Higher-order concolic testing
+#abstract
+I will explain what higher-order concolic testing is (using concolic testing on programs that accept functions as inputs). I will try to be very example-driven to explain what we've figured out about the problem so far.
+#audience People need to be used to reading short fragments of code with lambdas in them
+#tags #research #work-in-progress
+
+--------------------------------------------------------------------------------
+
+#date 2020-06-22
+#speaker <a href="">Stephanie Weirich</a> (UPenn)
+#title Strongly Typed System F in GHC
+#abstract
+There are many examples that demonstrate how to create a strongly typed abstract syntax in Haskell for a language with a simple type system. But there are many fewer examples that allow the embedded language to be polymorphic. I will work through what it takes to do so, touching on variable binding representations, and exploring the limits of dependently-typed programming in GHC.
+#audience Haskellers that are familiar with GADTs and/or strongly typed abstract syntax.
+#tags #research
+
+--------------------------------------------------------------------------------
+
+#date 2020-06-29
+#speaker <a href="">Jeremy Gibbons</a> (Oxford University)
+#title
+#abstract
+#audience
+#tags #research
+
+--------------------------------------------------------------------------------
+
+
+
