@@ -4,7 +4,7 @@
 --------------------------------------------------------------------------------
 
 #date 2020-05-11
-#speaker <a href="">Simon Peyton Jones</a> (Microsoft Research)
+#speaker <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
 #title 
 #abstract
 #audience
@@ -13,7 +13,7 @@
 --------------------------------------------------------------------------------
 
 #date 2020-05-18
-#speaker <a href="">Benjamin Pierce</a> (UPenn)
+#speaker <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin Pierce</a> (UPenn)
 #title
 #abstract
 QuickCheck-style property-based testing relies on random generators that produce well-distributed test data.
@@ -39,7 +39,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-05-25
-#speaker <a href="">Nadia Polikarpova</a> (UCSD)
+#speaker <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
 #title
 #abstract
 #audience
@@ -48,7 +48,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-06-01
-#speaker <a href="">Kathleen Fisher</a> (Tufts)
+#speaker <a href="http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html">Kathleen Fisher</a> (Tufts)
 #title
 #abstract
 #audience
@@ -57,7 +57,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-06-08
-#speaker <a href="">Phil Wadler</a> (University of Edinburgh)
+#speaker <a href="http://homepages.inf.ed.ac.uk/wadler/">Phil Wadler</a> (University of Edinburgh)
 #title
 #abstract
 #audience
@@ -66,7 +66,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-06-15
-#speaker <a href="">Robby Findler</a> (Northwestern University)
+#speaker <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
 #title Higher-order concolic testing
 #abstract
 I will explain what higher-order concolic testing is (using concolic testing on programs that accept functions as inputs). I will try to be very example-driven to explain what we've figured out about the problem so far.
@@ -76,7 +76,7 @@ I will explain what higher-order concolic testing is (using concolic testing on 
 --------------------------------------------------------------------------------
 
 #date 2020-06-22
-#speaker <a href="">Stephanie Weirich</a> (UPenn)
+#speaker <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
 #title Strongly Typed System F in GHC
 #abstract
 There are many examples that demonstrate how to create a strongly typed abstract syntax in Haskell for a language with a simple type system. But there are many fewer examples that allow the embedded language to be polymorphic. I will work through what it takes to do so, touching on variable binding representations, and exploring the limits of dependently-typed programming in GHC.
@@ -86,7 +86,7 @@ There are many examples that demonstrate how to create a strongly typed abstract
 --------------------------------------------------------------------------------
 
 #date 2020-06-29
-#speaker <a href="">Jeremy Gibbons</a> (Oxford University)
+#speaker <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
 #title
 #abstract
 #audience
