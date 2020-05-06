@@ -202,7 +202,7 @@ Stephanie Weirich is the ENIAC President's Distinguished Professor of Computer a
 The talk is related to our new book: "<a
 href="https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird/dp/1108491618">Algorithm
 Design with Haskell</a>" by Richard Bird and Jeremy Gibbons.
-<p>
+<br> <br>
 The book is devoted to five main principles of algorithm design:
 divide and conquer, greedy algorithms, thinning, dynamic programming,
 and exhaustive search. These principles are presented using Haskell,
