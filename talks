@@ -8,14 +8,12 @@
 #speaker <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
 #title A quick look at impredicativity
 #abstract
-
 Type inference for parametric polymorphism is wildly successful, but
 has always suffered from an embarrassing flaw: polymorphic types are
 themselves not first class.  I’ve been trying to fix this flaw for
 over 15 years , but every time I ended up with a system that was
 unusably complicated.
-<p>
- 
+<br> <br>
 But now I think we have it!  Quick Look is a practical, implemented,
 and deployable design for impredicative type inference.  It is simple
 to explain (although you can be the judge of that), and crucially it
@@ -27,7 +25,7 @@ Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in
 1980. After two years in industry, he spent seven years as a lecturer
 at University College London, and nine years as a professor at Glasgow
 University, before moving to Microsoft Research (Cambridge) in 1998. 
-
+<br> <br>
 Simon’s main research interest is in functional programming languages,
 their implementation, and their application. He was a key contributor
 to the design of the now-standard functional language Haskell, and is
@@ -37,7 +35,7 @@ functional languages.  He is particularly motivated by direct
 application of principled theory to practical language design and
 implementation — that is one reason he loves functional programming so
 much. 
-
+<br> <br>
 Simon is chair of Computing at School, the grass-roots organisation
 that was at the epicentre of the 2014 reform of the English computing
 curriculum. 
@@ -176,7 +174,6 @@ There are many examples that demonstrate how to create a strongly typed abstract
 #speaker <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
 #title Algorithm Design with Haskell
 #abstract
-
 The talk is related to our new book: "<a
 href="https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird/dp/1108491618">Algorithm
 Design with Haskell</a>" by Richard Bird and Jeremy Gibbons.
@@ -190,14 +187,12 @@ new and standard, reveal the commonalities and highlight the
 differences between algorithms. The algorithm developments use
 equational reasoning where applicable, clarifying the applicability
 conditions and correctness arguments.
-<p>
+<br> <br>
 In the talk, I propose to describe the premise of the book, including
 in particular the small aspect in which Haskell is insufficient, and
 to give an example.
-
 #bio
-
-I am Professor of Computing in the Department of Computer Science at
+I am a Professor of Computing in the Department of Computer Science at
 the University of Oxford. I am currently Director of the Software
 Engineering Programme, which offers part-time professional Masters’
 degrees in Software Engineering and in Software and Systems
@@ -206,7 +201,6 @@ Editor-in-Chief of the Journal of Functional Programming, Past Vice
 Chair of ACM SIGPLAN, Past Chair of IFIP WG2.1. Before taking up this
 post in 1999, I held lectureships at Oxford Brookes University and the
 University of Auckland, New Zealand. 
-
 #audience Students (both undergraduate
 and postgraduate), researchers, teachers, and professionals who want
 to know more about what goes into a good algorithm and how such
