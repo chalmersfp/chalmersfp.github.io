@@ -282,8 +282,37 @@ The seminars will take place every Monday (at 7am PDT / 10am EDT / 16:00 CET) an
 by <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
 <span style='float:right'>Host: John Hughes</span><br>
 <hr>
-Type inference for parametric polymorphism is wildly successful, but has always suffered from an embarrassing flaw: polymorphic types are themselves not first class. We present Quick Look, a practical, implemented, and deployable design for impredicative type inference. To demonstrate our claims, we have modified GHC, a production-quality Haskell compiler, to support impredicativity.  The changes required are modest, localised, and are fully compatible with GHC’s myriad other type system extensions.
+Type inference for parametric polymorphism is wildly successful, but
+has always suffered from an embarrassing flaw: polymorphic types are
+themselves not first class. We present Quick Look, a practical,
+implemented, and deployable design for impredicative type
+inference. To demonstrate our claims, we have modified GHC, a
+production-quality Haskell compiler, to support impredicativity.  The
+changes required are modest, localised, and are fully compatible with
+GHC’s myriad other type system extensions.
 <br>
+<p><span style='font-size:smaller;font-style:italic'>
+Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in
+1980. After two years in industry, he spent seven years as a lecturer
+at University College London, and nine years as a professor at Glasgow
+University, before moving to Microsoft Research (Cambridge) in 1998. 
+
+Simon’s main research interest is in functional programming languages,
+their implementation, and their application. He was a key contributor
+to the design of the now-standard functional language Haskell, and is
+the lead designer of the widely-used Glasgow Haskell Compiler
+(GHC). He has written two textbooks about the implementation of
+functional languages.  He is particularly motivated by direct
+application of principled theory to practical language design and
+implementation — that is one reason he loves functional programming so
+much. 
+
+Simon is chair of Computing at School, the grass-roots organisation
+that was at the epicentre of the 2014 reform of the English computing
+curriculum. 
+</span>
+<br>
+<p><strong>audience</strong>: Anyone interested in statically-typed functional programming.
 <hr>
 <strong>#research</strong><span style='float:right'><a href="http://not.yet.available">Zoom link for Monday May 11, 7am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
@@ -378,7 +407,7 @@ The Go programming language was released by Google a decade ago, and
 Philip Wadler is Professor of Theoretical Computer Science at the University of Edinburgh and Senior Research Fellow at IOHK. He is an ACM Fellow, a Fellow of the Royal Society of Edinburgh, and editor-in-chief of Proceedings of the ACM for Programming Languages. He is past chair of ACM SIGPLAN, past holder of a Royal Society-Wolfson Research Merit Fellowship, winner of the SIGPLAN Distinguished Service Award, and a winner of the POPL Most Influential Paper Award. Previously, he worked or studied at Stanford, Xerox Parc, CMU, Oxford, Chalmers, Glasgow, Bell Labs, and Avaya Labs, and visited as a guest professor in Copenhagen, Sydney, and Paris. He has an h-index of over 70 with more than 25,000 citations to his work, according to Google Scholar. He contributed to the designs of Haskell, Java, and XQuery, and is co-author of Introduction to Functional Programming (Prentice Hall, 1988), XQuery from the Experts (Addison Wesley, 2004), Generics and Collections in Java (O'Reilly, 2006), and Programming Language Foundations in Agda (2018). He has delivered invited talks in locations ranging from Aizu to Zurich.
 </span>
 <br>
-<strong>audience</strong>: Researchers
+<p><strong>audience</strong>: Researchers
 <hr>
 <strong>#research #work-in-progress</strong><span style='float:right'><a href="http://not.yet.available">Zoom link for Monday June 8, 7am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
@@ -391,7 +420,7 @@ by <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northw
 <hr>
 I will explain what higher-order concolic testing is (using concolic testing on programs that accept functions as inputs). I will try to be very example-driven to explain what we've figured out about the problem so far.
 <br>
-<strong>audience</strong>: People need to be used to reading short fragments of code with lambdas in them
+<p><strong>audience</strong>: People need to be used to reading short fragments of code with lambdas in them
 <hr>
 <strong>#research #work-in-progress</strong><span style='float:right'><a href="http://not.yet.available">Zoom link for Monday June 15, 7am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
@@ -404,7 +433,7 @@ by <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
 <hr>
 There are many examples that demonstrate how to create a strongly typed abstract syntax in Haskell for a language with a simple type system. But there are many fewer examples that allow the embedded language to be polymorphic. I will work through what it takes to do so, touching on variable binding representations, and exploring the limits of dependently-typed programming in GHC.
 <br>
-<strong>audience</strong>: Haskellers that are familiar with GADTs and/or strongly typed abstract syntax.
+<p><strong>audience</strong>: Haskellers that are familiar with GADTs and/or strongly typed abstract syntax.
 <hr>
 <strong>#research</strong><span style='float:right'><a href="http://not.yet.available">Zoom link for Monday June 22, 7am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
@@ -415,7 +444,39 @@ There are many examples that demonstrate how to create a strongly typed abstract
 by <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
 <span style='float:right'>Host: Koen Claessen</span><br>
 <hr>
+
+The talk is related to our new book: "<a
+href="https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird/dp/1108491618">Algorithm
+Design with Haskell</a>" by Richard Bird and Jeremy Gibbons.
+<p>
+The book is devoted to five main principles of algorithm design:
+divide and conquer, greedy algorithms, thinning, dynamic programming,
+and exhaustive search. These principles are presented using Haskell,
+leading to simpler explanations and shorter programs than would be
+obtained with imperative languages. Carefully selected examples, both
+new and standard, reveal the commonalities and highlight the
+differences between algorithms. The algorithm developments use
+equational reasoning where applicable, clarifying the applicability
+conditions and correctness arguments.
+<p>
+In the talk, I propose to describe the premise of the book, including
+in particular the small aspect in which Haskell is insufficient, and
+to give an example.
 <br>
+<p><span style='font-size:smaller;font-style:italic'>
+
+I am Professor of Computing in the Department of Computer Science at
+the University of Oxford. I am currently Director of the Software
+Engineering Programme, which offers part-time professional Masters’
+degrees in Software Engineering and in Software and Systems
+Security. I also lead the Algebra of Programming research group. I am
+Editor-in-Chief of the Journal of Functional Programming, Past Vice
+Chair of ACM SIGPLAN, Past Chair of IFIP WG2.1. Before taking up this
+post in 1999, I held lectureships at Oxford Brookes University and the
+University of Auckland, New Zealand. 
+</span>
+<br>
+<p><strong>audience</strong>: Students (both undergraduate and postgraduate), researchers, teachers, and professionals who want to know more about what goes into a good algorithm and how such algorithms can be expressed in purely functional terms. 
 <hr>
 <strong>#research #pearl #tutorial #applications #programming</strong><span style='float:right'><a href="http://not.yet.available">Zoom link for Monday June 29, 7am PDT / 10am EDT / 16:00 CET</a></span>
 </div>
