@@ -282,14 +282,19 @@ The seminars will take place every Monday (at 7am PDT / 10am EDT / 16:00 CET) an
 by <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
 <span style='float:right'>Host: John Hughes</span><br>
 <hr>
+
 Type inference for parametric polymorphism is wildly successful, but
 has always suffered from an embarrassing flaw: polymorphic types are
-themselves not first class. We present Quick Look, a practical,
-implemented, and deployable design for impredicative type
-inference. To demonstrate our claims, we have modified GHC, a
-production-quality Haskell compiler, to support impredicativity.  The
-changes required are modest, localised, and are fully compatible with
-GHC’s myriad other type system extensions.
+themselves not first class.  I’ve been trying to fix this flaw for
+over 15 years , but every time I ended up with a system that was
+unusably complicated.
+<p>
+ 
+But now I think we have it!  Quick Look is a practical, implemented,
+and deployable design for impredicative type inference.  It is simple
+to explain (although you can be the judge of that), and crucially it
+can be implemented with modest, localised changes that are fully
+compatible with GHC’s myriad other type system extensions.
 <br>
 <p><span style='font-size:smaller;font-style:italic'>
 Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in
