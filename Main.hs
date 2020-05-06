@@ -119,7 +119,7 @@ showTalks now ts zoom =
     ] ++
     [ hr
     , strong (unwords (tags t))
-      ++ ralign (link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 6am PDT / 10am EDT / 16:00 CET"))
+      ++ ralign (link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CET"))
     , "</div>"
     , "<p> </p>"
     ]
