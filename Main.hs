@@ -57,9 +57,11 @@ data Talk = Talk
   { date     :: (Integer,Int,Int)
   , speaker  :: String
   , title    :: String
+  , host     :: String
   , abstract :: [String]
   , audience :: String
   , tags     :: [String]
+  , bio      :: [String]
   }
  deriving ( Show )
 
@@ -76,9 +78,11 @@ talks tab
     Talk { date     = parseDate (unwords (tag "date"))
          , speaker  = unwords (tag "speaker")
          , title    = unwords (tag "title")
+         , host     = unwords (tag "host")
          , abstract = tag "abstract"
          , audience = unwords (tag "audience")
          , tags     = words (unwords (tag "tags"))
+         , bio      = tag "bio"
          }
    where
     tag t = [ l | (x,ls) <- tab, x == t, l <- ls ]
@@ -109,10 +113,19 @@ showTalks now ts zoom =
     [ "<div class='w3-container w3-padding-small w3-border-" ++ col ++ " w3-border'>"
     , strong (showDate (date t)) ++ br
     , larger (show (title t)) ++ br
-    , "by " ++ speaker t ++ br
+    , "by " ++ speaker t
+    , ralign ("Host: " ++ host t) ++ br
     , hr
     ] ++ abstract t ++
     [ br
+    ] ++
+    [ x | x <-
+      [ startBio
+      ] ++
+      bio t ++
+      [ endBio, br
+      ]
+    , not (null (bio t))
     ] ++
     [ strong "audience" ++ ": " ++ audience t
     | not (null (audience t))
@@ -131,6 +144,8 @@ showTalks now ts zoom =
   ralign s = "<span style='float:right'>" ++ s ++ "</span>"
   link l s = "<a href=" ++ show l ++ ">" ++ s ++ "</a>"
   sepa s   = "<p class='w3-center'><strong>" ++ s ++ "</strong></p>"
+  startBio = "<span style='font-size:smaller;font-style:italic'>"
+  endBio   = "</span>"
 
   showDate (_,m,d) = showMonth m ++ " " ++ show d
   showMonth 5 = "May"
