@@ -4,6 +4,7 @@
 --------------------------------------------------------------------------------
 
 #date 2020-05-11
+#host John Hughes
 #speaker <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
 #title A quick look at impredicativity
 #abstract
@@ -14,6 +15,7 @@ Type inference for parametric polymorphism is wildly successful, but has always 
 --------------------------------------------------------------------------------
 
 #date 2020-05-18
+#host Koen Claessen
 #speaker <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin Pierce</a> (UPenn)
 #title
 #abstract
@@ -40,6 +42,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-05-25
+#host John Hughes
 #speaker <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
 #title Resource types for verification and synthesis 
 #abstract
@@ -49,6 +52,7 @@ improving bug-finding performance by 3.9× with only a tiny change in the genera
 --------------------------------------------------------------------------------
 
 #date 2020-06-01
+#host Mary Sheeran
 #speaker <a href="http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html">Kathleen Fisher</a> (Tufts University, Former Program Manager of DARPA’s HACMS Program)
 #title Using Formal Methods to Eliminate Exploitable Bugs
 #abstract
@@ -59,6 +63,7 @@ For decades, formal methods have offered the promise of software that doesn’t 
 --------------------------------------------------------------------------------
 
 #date 2020-06-08
+#host Koen Claessen
 #speaker <a href="http://homepages.inf.ed.ac.uk/wadler/">Phil Wadler</a> (University of Edinburgh)
 #title Featherweight Go
 #abstract
@@ -81,6 +86,7 @@ Philip Wadler is Professor of Theoretical Computer Science at the University of 
 --------------------------------------------------------------------------------
 
 #date 2020-06-15
+#host Koen Claessen
 #speaker <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
 #title Higher-order concolic testing
 #abstract
@@ -91,6 +97,7 @@ I will explain what higher-order concolic testing is (using concolic testing on 
 --------------------------------------------------------------------------------
 
 #date 2020-06-22
+#host Mary Sheeran
 #speaker <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
 #title Strongly Typed System F in GHC
 #abstract
@@ -101,6 +108,7 @@ There are many examples that demonstrate how to create a strongly typed abstract
 --------------------------------------------------------------------------------
 
 #date 2020-06-29
+#host Koen Claessen
 #speaker <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
 #title Algorithm Design with Haskell
 #abstract
