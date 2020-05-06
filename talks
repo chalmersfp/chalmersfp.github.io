@@ -91,8 +91,25 @@ Unison file synchronizer.
 #date 2020-05-25
 #host John Hughes
 #speaker <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
-#title Resource types for verification and synthesis 
+#title Liquid resource types for verification and synthesis 
 #abstract
+This talk presents a type system that combines Liquid Types with
+potential annotations from Automated Amortized Resource Analysis to
+enable fine-grained reasoning about resource consumption. Using Liquid
+Resource Types we can verify, for example, that insertion sort only
+makes as many steps as there are unordered pairs in its input list. We
+can also use these types in conjunctions with type-driven program
+synthesis to synthesize provably efficient programs.
+#bio
+Nadia Polikarpova is an Assistant Professor in the Computer Science
+and Engineering Department at the University of California, San
+Diego. She completed her PhD in 2014 at ETH Zurich (Switzerland) under
+the supervision of Bertrand Meyer. After that, she spent almost three
+years as a postdoc at MIT CSAIL, working with Armando
+Solar-Lezama. Her research interests span the areas of programming
+languages and formal methods; in particular, she is interested in
+building practical tools and techniques that make it easier for
+programmers to construct secure and reliable software. 
 #audience
 #tags #research
 
