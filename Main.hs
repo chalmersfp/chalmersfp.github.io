@@ -127,7 +127,7 @@ showTalks now ts zoom =
       ]
     , not (null (bio t))
     ] ++
-    [ strong "audience" ++ ": " ++ audience t
+    [ p ++ strong "audience" ++ ": " ++ audience t
     | not (null (audience t))
     ] ++
     [ hr
@@ -139,6 +139,7 @@ showTalks now ts zoom =
 
   br       = "<br>"
   hr       = "<hr>"
+  p        = "<p>"
   strong s = "<strong>" ++ s ++ "</strong>"
   larger s = "<span style='font-size:larger'>" ++ s ++ "</span>"
   ralign s = "<span style='float:right'>" ++ s ++ "</span>"
