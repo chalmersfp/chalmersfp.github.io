@@ -144,7 +144,7 @@ showTalks now ts zoom =
   ralign s = "<span style='float:right'>" ++ s ++ "</span>"
   link l s = "<a href=" ++ show l ++ ">" ++ s ++ "</a>"
   sepa s   = "<p class='w3-center'><strong>" ++ s ++ "</strong></p>"
-  startBio = "<span style='font-size:smaller;font-style:italic'>"
+  startBio = "<p><span style='font-size:smaller;font-style:italic'>"
   endBio   = "</span>"
 
   showDate (_,m,d) = showMonth m ++ " " ++ show d

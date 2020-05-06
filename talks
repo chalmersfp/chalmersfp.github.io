@@ -17,7 +17,7 @@ Type inference for parametric polymorphism is wildly successful, but has always 
 #date 2020-05-18
 #host Koen Claessen
 #speaker <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin Pierce</a> (UPenn)
-#title
+#title Backtracking Generators for Random Testing
 #abstract
 QuickCheck-style property-based testing relies on random generators that produce well-distributed test data.
 When the properties under test involve sparse preconditions, test generators must be written so as to produce
@@ -36,6 +36,21 @@ more effective test cases—requiring 2.1× fewer tests, on average, to discover
 adding backtracking to an existing, highly tuned generator for random machine states in a testing framework
 for dynamic information flow control monitors allows us to amortize an expensive step in test-case generation,
 improving bug-finding performance by 3.9× with only a tiny change in the generator.
+#bio
+Benjamin Pierce is Henry Salvatori Professor of Computer and
+Information Science at the University of Pennsylvania and a Fellow of
+the ACM. His research interests include programming languages, type
+systems, language-based security, computer-assisted formal
+verification, differential privacy, and synchronization
+technologies. He is the author of the widely used graduate textbooks
+Types and Programming Languages and Software Foundations. He has
+served as co-Editor in Chief of the Journal of Functional Programming,
+as Managing Editor for Logical Methods in Computer Science, and as
+editorial board member of Mathematical Structures in Computer Science,
+Formal Aspects of Computing, and ACM Transactions on Programming
+Languages and Systems. He holds a doctorate honoris causa from
+Chalmers University. He is also the lead designer of the popular
+Unison file synchronizer. 
 #audience
 #tags #research
 
