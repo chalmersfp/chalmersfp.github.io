@@ -129,7 +129,7 @@ showTalks now ts zoom =
       ]
     , not (null (bio t))
     ] ++
-    [ p ++ strong "audience" ++ ": " ++ audience t
+    [ br ++ strong "audience" ++ ": " ++ audience t
     | not (null (audience t))
     ] ++
     [ hr
@@ -141,13 +141,13 @@ showTalks now ts zoom =
 
   br       = "<br>"
   hr       = "<hr>"
-  p        = "<p>"
+  --p        = "<p>" -- we should avoid single "<p>"s
   strong s = "<strong>" ++ s ++ "</strong>"
   larger s = "<span style='font-size:larger'>" ++ s ++ "</span>"
   ralign s = "<span style='float:right'>" ++ s ++ "</span>"
   link l s = "<a href=" ++ show l ++ ">" ++ s ++ "</a>"
   sepa s   = "<p class='w3-center'><strong>" ++ s ++ "</strong></p>"
-  startBio = "<p><span style='font-size:smaller;font-style:italic'>"
+  startBio = "<br><span style='font-size:smaller;font-style:italic'>"
   endBio   = "</span>"
 
   showDate (_,m,d) = showMonth m ++ " " ++ show d
