@@ -99,16 +99,8 @@ makes as many steps as there are unordered pairs in its input list. We
 can also use these types in conjunctions with type-driven program
 synthesis to synthesize provably efficient programs.
 #bio
-Nadia Polikarpova is an Assistant Professor in the Computer Science
-and Engineering Department at the University of California, San
-Diego. She completed her PhD in 2014 at ETH Zurich (Switzerland) under
-the supervision of Bertrand Meyer. After that, she spent almost three
-years as a postdoc at MIT CSAIL, working with Armando
-Solar-Lezama. Her research interests span the areas of programming
-languages and formal methods; in particular, she is interested in
-building practical tools and techniques that make it easier for
-programmers to construct secure and reliable software. 
-#audience
+Nadia Polikarpova is an Assistant Professor of Computer Science and Engineering at the University of California, San Diego. She is a 2020 Sloan Fellow and a recipient of the 2020 NSF Career Award. Her research interests are in program synthesis, program verification, and type systems.
+#audience The talk should be accessible to anyone comfortable with statically-typed functional languages; familiarity with expressive type systems (refinement types, dependent types) will be helpful, but is not required.
 #tags #research
 
 --------------------------------------------------------------------------------
