@@ -177,6 +177,7 @@ generalization to higher-order inputs and the results we have so far.
 #audience People interested in functional programming research.
 Familiarity with concolic testing is not assumed but being able to
 read small fragments of code (possibly with lambdas in them) is.
+#bio Robby Findler is a core developer of Racket and a professor at Northwestern University.
 #tags #research #work-in-progress #funky-functions
 
 --------------------------------------------------------------------------------
