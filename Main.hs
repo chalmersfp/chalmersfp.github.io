@@ -145,7 +145,7 @@ showTalks now ts zoom =
   strong s = "<strong>" ++ s ++ "</strong>"
   larger s = "<span style='font-size:larger'>" ++ s ++ "</span>"
   ralign s = "<span style='float:right'>" ++ s ++ "</span>"
-  link l s = "<a href=" ++ show l ++ ">" ++ s ++ "</a>"
+  link l s = "<a href=" ++ show l ++ " target=\"_blank\">" ++ s ++ "</a>"
   sepa s   = "<p class='w3-center'><strong>" ++ s ++ "</strong></p>"
   startBio = "<br><span style='font-size:smaller;font-style:italic'>"
   endBio   = "</span>"
