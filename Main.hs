@@ -65,6 +65,9 @@ data Talk = Talk
   , tags     :: [String]
   , bio      :: [String]
   , video    :: String
+  , live     :: String
+  , slido    :: String
+  , slidocode:: String
   }
  deriving ( Show )
 
@@ -87,6 +90,9 @@ talks tab
          , tags     = words (unwords (tag "tags"))
          , bio      = tag "bio"
          , video    = unwords (tag "video")
+         , live     = unwords (tag "youtube")
+         , slido    = unwords (tag "slido")
+         , slidocode= unwords (tag "slidocode")
          }
    where
     tag t = [ l | (x,ls) <- tab, x == t, l <- ls ]
@@ -137,7 +143,10 @@ showTalks now ts zoom =
     [ hr
     , strong (unwords (tags t))
       ++ ralign (if null (video t) then
-                    link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST")
+                    (if null (live t) then id else link (live t))
+                    ("Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST") ++
+                    if null (slido t) then "" else
+                    " (" ++ link (slido t) "Sli.do" ++ ", event code #" ++ slidocode t ++ ")"
                  else
                     link (video t) "Seminar video on Youtube")
     , "</div>"
