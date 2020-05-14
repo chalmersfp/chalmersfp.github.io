@@ -45,7 +45,7 @@ curriculum.
 --------------------------------------------------------------------------------
 
 #date 2020-05-18
-#host Koen Claessen
+#host John Hughes
 #speaker <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin Pierce</a> (UPenn)
 #title Backtracking Generators for Random Testing
 #abstract
@@ -87,7 +87,7 @@ Unison file synchronizer.
 --------------------------------------------------------------------------------
 
 #date 2020-05-25
-#host John Hughes
+#host Koen Claessen
 #speaker <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
 #title Liquid resource types for verification and synthesis 
 #abstract
@@ -142,7 +142,7 @@ Philip Wadler is Professor of Theoretical Computer Science at the University of 
 --------------------------------------------------------------------------------
 
 #date 2020-06-15
-#host Koen Claessen
+#host John Hughes
 #speaker <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
 #title Concolic Testing with Higher-Order Inputs
 #abstract
@@ -177,7 +177,7 @@ read small fragments of code (possibly with lambdas in them) is.
 --------------------------------------------------------------------------------
 
 #date 2020-06-22
-#host Mary Sheeran
+#host Koen Claessen
 #speaker <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
 #title Strongly Typed System F in GHC
 #abstract
@@ -190,7 +190,7 @@ Stephanie Weirich is the ENIAC President's Distinguished Professor of Computer a
 --------------------------------------------------------------------------------
 
 #date 2020-06-29
-#host Koen Claessen
+#host Mary Sheeran
 #speaker <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
 #title Algorithm Design with Haskell
 #abstract

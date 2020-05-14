@@ -277,54 +277,10 @@ The seminars will take place every Monday (at 7am PDT / 10am EDT / 16:00 CEST) a
 
 <p class='w3-center'><strong>upcoming talks</strong></p>
 <div class='w3-container w3-padding-small w3-border-blue w3-border'>
-<strong>May 11</strong><br>
-<span style='font-size:larger'>"A quick look at impredicativity"</span><br>
-by <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
-<span style='float:right'>Host: John Hughes</span><br>
-<hr>
-Type inference for parametric polymorphism is wildly successful, but
-has always suffered from an embarrassing flaw: polymorphic types are
-themselves not first class.  I’ve been trying to fix this flaw for
-over 15 years , but every time I ended up with a system that was
-unusably complicated.
-<br> <br>
-But now I think we have it!  Quick Look is a practical, implemented,
-and deployable design for impredicative type inference.  It is simple
-to explain (although you can be the judge of that), and crucially it
-can be implemented with modest, localised changes that are fully
-compatible with GHC’s myriad other type system extensions.
-<br>
-<br><span style='font-size:smaller;font-style:italic'>
-Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in
-1980. After two years in industry, he spent seven years as a lecturer
-at University College London, and nine years as a professor at Glasgow
-University, before moving to Microsoft Research (Cambridge) in 1998. 
-<br> <br>
-Simon’s main research interest is in functional programming languages,
-their implementation, and their application. He was a key contributor
-to the design of the now-standard functional language Haskell, and is
-the lead designer of the widely-used Glasgow Haskell Compiler
-(GHC). He has written two textbooks about the implementation of
-functional languages.  He is particularly motivated by direct
-application of principled theory to practical language design and
-implementation — that is one reason he loves functional programming so
-much. 
-<br> <br>
-Simon is chair of Computing at School, the grass-roots organisation
-that was at the epicentre of the 2014 reform of the English computing
-curriculum. 
-</span>
-<br>
-<br><strong>audience</strong>: Anyone interested in statically-typed functional programming.
-<hr>
-<strong>#research</strong><span style='float:right'><a href="https://chalmers.zoom.us/j/66770068279" target="_blank">Zoom link for Monday May 11, 7am PDT / 10am EDT / 16:00 CEST</a></span>
-</div>
-<p> </p>
-<div class='w3-container w3-padding-small w3-border-blue w3-border'>
 <strong>May 18</strong><br>
 <span style='font-size:larger'>"Backtracking Generators for Random Testing"</span><br>
 by <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin Pierce</a> (UPenn)
-<span style='float:right'>Host: Koen Claessen</span><br>
+<span style='float:right'>Host: John Hughes</span><br>
 <hr>
 QuickCheck-style property-based testing relies on random generators that produce well-distributed test data.
 When the properties under test involve sparse preconditions, test generators must be written so as to produce
@@ -370,7 +326,7 @@ Unison file synchronizer.
 <strong>May 25</strong><br>
 <span style='font-size:larger'>"Liquid resource types for verification and synthesis"</span><br>
 by <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a> (UCSD)
-<span style='float:right'>Host: John Hughes</span><br>
+<span style='float:right'>Host: Koen Claessen</span><br>
 <hr>
 This talk presents a type system that combines Liquid Types with
 potential annotations from Automated Amortized Resource Analysis to
@@ -434,7 +390,7 @@ Philip Wadler is Professor of Theoretical Computer Science at the University of 
 <strong>June 15</strong><br>
 <span style='font-size:larger'>"Concolic Testing with Higher-Order Inputs"</span><br>
 by <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
-<span style='float:right'>Host: Koen Claessen</span><br>
+<span style='float:right'>Host: John Hughes</span><br>
 <hr>
 Concolic testing, dating back to the mid 2000s, has proven to be an
 effective, automatic testing technique. Roughly, a concolic tester
@@ -472,7 +428,7 @@ Robby Findler is a core developer of Racket and a professor at Northwestern Univ
 <strong>June 22</strong><br>
 <span style='font-size:larger'>"Strongly Typed System F in GHC"</span><br>
 by <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
-<span style='float:right'>Host: Mary Sheeran</span><br>
+<span style='float:right'>Host: Koen Claessen</span><br>
 <hr>
 There are many examples that demonstrate how to create a strongly typed abstract syntax in Haskell for a language with a simple type system. But there are many fewer examples that allow the embedded language to be polymorphic. I will work through what it takes to do so, touching on variable binding representations, and exploring the limits of dependently-typed programming in GHC.
 <br>
@@ -489,7 +445,7 @@ Stephanie Weirich is the ENIAC President's Distinguished Professor of Computer a
 <strong>June 29</strong><br>
 <span style='font-size:larger'>"Algorithm Design with Haskell"</span><br>
 by <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/">Jeremy Gibbons</a> (Oxford University)
-<span style='float:right'>Host: Koen Claessen</span><br>
+<span style='float:right'>Host: Mary Sheeran</span><br>
 <hr>
 The talk is related to our new book: "<a
 href="https://www.amazon.com/Algorithm-Design-Haskell-Richard-Bird/dp/1108491618">Algorithm
@@ -524,6 +480,51 @@ University of Auckland, New Zealand.
 <br><strong>audience</strong>: Students (both undergraduate and postgraduate), researchers, teachers, and professionals who want to know more about what goes into a good algorithm and how such algorithms can be expressed in purely functional terms. 
 <hr>
 <strong>#research #pearl #tutorial #applications #programming</strong><span style='float:right'><a href="https://chalmers.zoom.us/j/66770068279" target="_blank">Zoom link for Monday June 29, 7am PDT / 10am EDT / 16:00 CEST</a></span>
+</div>
+<p> </p>
+<p class='w3-center'><strong>past talks</strong></p>
+<div class='w3-container w3-padding-small w3-border-red w3-border'>
+<strong>May 11</strong><br>
+<span style='font-size:larger'>"A quick look at impredicativity"</span><br>
+by <a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (Microsoft Research)
+<span style='float:right'>Host: John Hughes</span><br>
+<hr>
+Type inference for parametric polymorphism is wildly successful, but
+has always suffered from an embarrassing flaw: polymorphic types are
+themselves not first class.  I’ve been trying to fix this flaw for
+over 15 years , but every time I ended up with a system that was
+unusably complicated.
+<br> <br>
+But now I think we have it!  Quick Look is a practical, implemented,
+and deployable design for impredicative type inference.  It is simple
+to explain (although you can be the judge of that), and crucially it
+can be implemented with modest, localised changes that are fully
+compatible with GHC’s myriad other type system extensions.
+<br>
+<br><span style='font-size:smaller;font-style:italic'>
+Simon Peyton Jones, FRS, graduated from Trinity College Cambridge in
+1980. After two years in industry, he spent seven years as a lecturer
+at University College London, and nine years as a professor at Glasgow
+University, before moving to Microsoft Research (Cambridge) in 1998. 
+<br> <br>
+Simon’s main research interest is in functional programming languages,
+their implementation, and their application. He was a key contributor
+to the design of the now-standard functional language Haskell, and is
+the lead designer of the widely-used Glasgow Haskell Compiler
+(GHC). He has written two textbooks about the implementation of
+functional languages.  He is particularly motivated by direct
+application of principled theory to practical language design and
+implementation — that is one reason he loves functional programming so
+much. 
+<br> <br>
+Simon is chair of Computing at School, the grass-roots organisation
+that was at the epicentre of the 2014 reform of the English computing
+curriculum. 
+</span>
+<br>
+<br><strong>audience</strong>: Anyone interested in statically-typed functional programming.
+<hr>
+<strong>#research</strong><span style='float:right'><a href="https://chalmers.zoom.us/j/66770068279" target="_blank">Zoom link for Monday May 11, 7am PDT / 10am EDT / 16:00 CEST</a></span>
 </div>
 <p> </p>
 
