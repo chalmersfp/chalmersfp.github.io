@@ -64,6 +64,7 @@ data Talk = Talk
   , audience :: String
   , tags     :: [String]
   , bio      :: [String]
+  , video    :: String
   }
  deriving ( Show )
 
@@ -85,6 +86,7 @@ talks tab
          , audience = unwords (tag "audience")
          , tags     = words (unwords (tag "tags"))
          , bio      = tag "bio"
+         , video    = unwords (tag "video")
          }
    where
     tag t = [ l | (x,ls) <- tab, x == t, l <- ls ]
@@ -134,7 +136,10 @@ showTalks now ts zoom =
     ] ++
     [ hr
     , strong (unwords (tags t))
-      ++ ralign (link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST"))
+      ++ ralign (if null (video t) then
+                    link zoom ("Zoom link for Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST")
+                 else
+                    link (video t) "Seminar video on Youtube")
     , "</div>"
     , "<p> </p>"
     ]
