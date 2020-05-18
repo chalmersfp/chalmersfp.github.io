@@ -143,10 +143,10 @@ showTalks now ts zoom =
     [ hr
     , strong (unwords (tags t))
       ++ ralign (if null (video t) then
-                    (if null (live t) then id else link (live t))
-                    ("Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST") ++
-                    if null (slido t) then "" else
-                    " (" ++ link (slido t) "Sli.do" ++ ", event code #" ++ slidocode t ++ ")"
+                    "Monday " ++ showDate (date t) ++ ", 7am PDT / 10am EDT / 16:00 CEST" ++
+                    (useLink (live t) $ \link -> " (" ++ link "YouTube" ++ ")") ++
+                    (useLink (slido t) $ \link ->
+                      " (" ++ link "Sli.do" ++ ", event code #" ++ slidocode t ++ ")")
                  else
                     link (video t) "Seminar video on Youtube")
     , "</div>"
@@ -169,6 +169,8 @@ showTalks now ts zoom =
   showMonth 6 = "June"
   showMonth 7 = "July"
 
+  useLink s f = if null s then "" else f $ link s
+  
 --------------------------------------------------------------------------------
 
 clean :: String -> String
