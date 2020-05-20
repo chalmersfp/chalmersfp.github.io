@@ -84,9 +84,7 @@ Chalmers University. He is also the lead designer of the popular
 Unison file synchronizer. 
 #audience Anyone interested in property-based testing.
 #tags #research
-#youtube https://youtu.be/dfZ94N0hS4I
-#slido https://app.sli.do/event/dqcbolmr
-#slidocode T790
+#video https://youtu.be/dfZ94N0hS4I
 
 --------------------------------------------------------------------------------
 
@@ -106,6 +104,9 @@ synthesis to synthesize provably efficient programs.
 Nadia Polikarpova is an Assistant Professor of Computer Science and Engineering at the University of California, San Diego. She is a 2020 Sloan Fellow and a recipient of the 2020 NSF Career Award. Her research interests are in program synthesis, program verification, and type systems.
 #audience The talk should be accessible to anyone comfortable with statically-typed functional languages; familiarity with expressive type systems (refinement types, dependent types) will be helpful, but is not required.
 #tags #research
+#youtube https://youtu.be/BW3ZDtjD_Yw
+#slido https://app.sli.do/event/8idx3zww
+#slidocode M059
 
 --------------------------------------------------------------------------------
 
