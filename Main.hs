@@ -68,6 +68,7 @@ data Talk = Talk
   , live     :: String
   , slido    :: String
   , slidocode:: String
+  , slides   :: String
   }
  deriving ( Show )
 
@@ -93,6 +94,7 @@ talks tab
          , live     = unwords (tag "youtube")
          , slido    = unwords (tag "slido")
          , slidocode= unwords (tag "slidocode")
+         , slides   = unwords (tag "slides")
          }
    where
     tag t = [ l | (x,ls) <- tab, x == t, l <- ls ]
@@ -148,7 +150,8 @@ showTalks now ts zoom =
                     (useLink (slido t) $ \link ->
                       " (" ++ link "Sli.do" ++ ", event code #" ++ slidocode t ++ ")")
                  else
-                    link (video t) "Seminar video on Youtube")
+                    link (video t) "Seminar video on Youtube" ++
+                    useLink (slides t) (\link -> " (" ++ link "slides" ++ ")"))
     , "</div>"
     , "<p> </p>"
     ]
