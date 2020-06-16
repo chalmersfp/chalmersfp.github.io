@@ -275,44 +275,6 @@ The seminars will take place every Monday (at 7am PDT / 10am EDT / 16:00 CEST) a
 
 <p class='w3-center'><strong>upcoming talks</strong></p>
 <div class='w3-container w3-padding-small w3-border-blue w3-border'>
-<strong>June 15</strong><br>
-<span style='font-size:larger'>"Concolic Testing with Higher-Order Inputs"</span><br>
-by <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
-<span style='float:right'>Host: John Hughes</span><br>
-<hr>
-Concolic testing, dating back to the mid 2000s, has proven to be an
-effective, automatic testing technique. Roughly, a concolic tester
-monitors the program's behavior, collecting information that connects
-the branches that the program takes with the original inputs to the
-program. It then uses that information (with the help of an SMT
-solver) to try to construct new inputs to force the program to take
-different branches, in an attempt to uncover problems with the program.
-<br> <br>
-Most of the existing work on concolic testing focuses on the situation
-where the inputs to the program being tested are flat values (e.g.,
-numbers) instead of higher-order values (e.g., objects or
-functions). Higher-order inputs, however, present challenges for
-concolic testing because the interplay between the input and the
-program being tested is much more complex.
-<br> <br>
-In this talk, I'll discuss the way we generalize concolic testing to
-higher-order inputs, explaining why it is challenging and how we
-answer the challenge. The talk will be example driven and I will try
-to bring across the intuition for how we conceptualize the
-generalization to higher-order inputs and the results we have so far.
-<br> <br>
-(Joint work with Shu-Hung You and Christos Dimoulas.)
-<br>
-<br><span style='font-size:smaller;font-style:italic'>
-Robby Findler is a core developer of Racket and a professor at Northwestern University.
-</span>
-<br>
-<br><strong>audience</strong>: People interested in functional programming research. Familiarity with concolic testing is not assumed but being able to read small fragments of code (possibly with lambdas in them) is.
-<hr>
-<strong>#research #work-in-progress #funky-functions</strong><span style='float:right'><a href="https://youtu.be/aO9nOCqNdfQ" target="_blank">Seminar video on Youtube</a> (<a href="https://www.dropbox.com/s/vs7wdk20cgjdzag/higher-order-concolic-testing.pdf?dl=0" target="_blank">slides</a>)</span>
-</div>
-<p> </p>
-<div class='w3-container w3-padding-small w3-border-blue w3-border'>
 <strong>June 22</strong><br>
 <span style='font-size:larger'>"Strongly Typed System F in GHC"</span><br>
 by <a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (UPenn)
@@ -524,6 +486,44 @@ Philip Wadler is Professor of Theoretical Computer Science at the University of 
 <br><strong>audience</strong>: Anyone interested in programming languages. Mostly Go code, with a little formalisation.
 <hr>
 <strong>#research #work-in-progress</strong><span style='float:right'><a href="https://youtu.be/Dq0WFigax_c" target="_blank">Seminar video on Youtube</a> (<a href="http://homepages.inf.ed.ac.uk/wadler/papers/go/chalmers.pdf" target="_blank">slides</a>)</span>
+</div>
+<p> </p>
+<div class='w3-container w3-padding-small w3-border-red w3-border'>
+<strong>June 15</strong><br>
+<span style='font-size:larger'>"Concolic Testing with Higher-Order Inputs"</span><br>
+by <a href="https://users.cs.northwestern.edu/~robby/">Robby Findler</a> (Northwestern University)
+<span style='float:right'>Host: John Hughes</span><br>
+<hr>
+Concolic testing, dating back to the mid 2000s, has proven to be an
+effective, automatic testing technique. Roughly, a concolic tester
+monitors the program's behavior, collecting information that connects
+the branches that the program takes with the original inputs to the
+program. It then uses that information (with the help of an SMT
+solver) to try to construct new inputs to force the program to take
+different branches, in an attempt to uncover problems with the program.
+<br> <br>
+Most of the existing work on concolic testing focuses on the situation
+where the inputs to the program being tested are flat values (e.g.,
+numbers) instead of higher-order values (e.g., objects or
+functions). Higher-order inputs, however, present challenges for
+concolic testing because the interplay between the input and the
+program being tested is much more complex.
+<br> <br>
+In this talk, I'll discuss the way we generalize concolic testing to
+higher-order inputs, explaining why it is challenging and how we
+answer the challenge. The talk will be example driven and I will try
+to bring across the intuition for how we conceptualize the
+generalization to higher-order inputs and the results we have so far.
+<br> <br>
+(Joint work with Shu-Hung You and Christos Dimoulas.)
+<br>
+<br><span style='font-size:smaller;font-style:italic'>
+Robby Findler is a core developer of Racket and a professor at Northwestern University.
+</span>
+<br>
+<br><strong>audience</strong>: People interested in functional programming research. Familiarity with concolic testing is not assumed but being able to read small fragments of code (possibly with lambdas in them) is.
+<hr>
+<strong>#research #work-in-progress #funky-functions</strong><span style='float:right'><a href="https://youtu.be/aO9nOCqNdfQ" target="_blank">Seminar video on Youtube</a> (<a href="https://www.dropbox.com/s/vs7wdk20cgjdzag/higher-order-concolic-testing.pdf?dl=0" target="_blank">slides</a>)</span>
 </div>
 <p> </p>
 
