@@ -3,6 +3,7 @@ module Main where
 import Data.Char( isSpace, isDigit )
 import Data.Time.Clock( UTCTime(..), getCurrentTime )
 import Data.Time.Calendar( toGregorian )
+import Text.Printf
 
 --------------------------------------------------------------------------------
 
@@ -167,13 +168,15 @@ showTalks now ts zoom =
   startBio = "<br><span style='font-size:smaller;font-style:italic'>"
   endBio   = "</span>"
 
-  showDate (_,m,d) = showMonth m ++ " " ++ show d
   showMonth 5 = "May"
   showMonth 6 = "June"
   showMonth 7 = "July"
 
   useLink s f = if null s then "" else f $ link s
   
+showDate :: (Integer, Int, Int) -> String
+showDate (y,m,d) = printf "%4i-%02i-%02i" y m d
+  -- showMonth m ++ " " ++ show d
 --------------------------------------------------------------------------------
 
 clean :: String -> String
