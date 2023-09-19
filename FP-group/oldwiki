@@ -1,0 +1,45 @@
+!!Old news
+* 2015-08-01: Irene Lobo Valbuena starts as a PhD student working in the [[(ST/)GRACeFUL]] project with Patrik Jansson
+* 2015-03-16: New [[MSc Thesis]] page
+* 2014-12-01: Alex Gerdes and Tobias Gedell join the [[PROWESS project -> http://www.prowessproject.eu/project/]] for half a year.
+* 2014-10-01: Irene Lobo Valbuena and Simon Pfreundschuh start as "Amanuens" at 20% each on the "Implementation of finite element exterior calculus in a functional programming language" (functional-feec) project.
+* 2014-09-01/2014-11-15: Benjamin Pierce is at Chalmers as [["Jubilee professor" -> http://www.chalmers.se/en/departments/cse/news/Pages/Chalmers-Jubileumsprofessor-2014-to-CSE.aspx]].
+* 2014-08-31/2014-09-06: [[ICFP 2014 in Gothenburg -> http://icfpconference.org/icfp2014/]]
+* 2014-07-01: Markus Aronsson starts as ProjAss in the RAWFP project. Will be PhD student with Mary from 2014-10-01
+* 2014-04-29/02: [[Idris Developers' Meeting -> https://github.com/idris-lang/Idris-dev/wiki/Idris-Developers-Meeting,-April-May-2014]]
+* 2014-02-01: [[PhD student position in Functional Programming -> http://www.chalmers.se/en/about-chalmers/vacancies/Pages/default.aspx?rmpage=job&rmjob=1912]] (application deadline 2014-03-31)
+* 2013-11-01: Ramona Enache starts as PostDoc in the FP group (in the [[REMU project -> http://remu.grammaticalframework.org]]) 
+* 2013-09-12: Talk from our Ericsson colleagues David Engdal and Martin Lundqvist about programming challenges and open research questions in baseband signal processing on the Adapteva platform ( [[ slides -> Attach:EngdalSlides.pdf]], pdf)
+* 2013-09-01: Inari Listenmaa starts as a PhD student in the FP group (working with Koen and Ramona in the [[REMU project -> http://remu.grammaticalframework.org]])
+* 2013-08-01: Cezar Ionescu starts as PostDoc in the FP group (working with Patrik in the [[StrongLib project -> Strongly Typed Libraries for Programs and Proofs]])
+* 2013-04-01: Johan Nordlander starts (as guest researcher, at 30%, Apr-Dec 2013) in the [[(RAWFP/)RAWFP]] project.
+* 2013-04-01: Anton Ekblad starts his PhD studies in the [[(RAWFP/)RAWFP]] project.
+* 2013-02-25/2013-03-01: Visit by Jurriaan Hage from Utrecht (hosted by Meng Wang)
+* 2013-01-28/2013-02-01: Visit by Cezar Ionescu (hosted by Patrik Jansson) as part of the [[(GSDP/)GSDP]] project
+* 2013-01-21: Start of the [[AFP -> http://www.cse.chalmers.se/edu/course/afp/]] course
+* 2013-01-01: Dan Rosén starts his PhD studies in the [[(RAWFP/)RAWFP]] project.
+* 2012-12-15: Kazutaka Matsuda + Meng Wang: [[FliPpr: A Prettier Invertible Printing System]] to appear in ESOP 2013.
+* 2012-12-10/12: Visit by Geoffrey Mainland from MSR Cambridge Wed to Fri. Contact Mary if you want to set up a meeting.
+* 2012-12-03/7: [[Scala course -> http://itu.dk/people/drc/scala-course-2012/]] for doctoral students (and anyone interested).
+* 2012-11-30: C. Ionescu + P. Jansson: [[Testing versus proving in climate impact research]] published in TYPES2011 post-proceedings.
+* 2012-11-30: Jonas Duregård's defended his lic. thesis
+* 2012-11-28/30: Andy Gill (discussion leader for Jonas Duregård's lic) is visiting the FP group Wed-Fri. Contact Jonas if you want to set up a meeting.
+* 2012-11-21: The FP group announces [[two PhD positions -> http://www.chalmers.se/en/about-chalmers/vacancies/Pages/default.aspx?rmpage=job&rmjob=900&rmlang=UK]] - deadline 2012-12-12.
+* 2012-09-12: This year we've got a whole session at the [[Haskell Symposium -> http://www.haskell.org/haskell-symposium/2012/]]: [[Testing Type Class Laws -> ClassLaws]], [[Feat: Functional Enumeration of Algebraic Types -> Testing-Feat]], [[Shrinking and showing functions: (functional pearl) -> http://dl.acm.org/citation.cfm?id=2364516]]
+* 2012-09-11: Long-term planning: [[ICFP 2014]] will be in Gothenburg! (Decision by the ICFP steering committee today.)
+* 2012-08-06: [[Kazutaka Matsuda -> http://www-kb.is.s.u-tokyo.ac.jp/~kztk/index.html.en]] is visiting until end of September.
+* 2012-05-25: [[Norman Ramsey -> http://www.cs.tufts.edu/~nr/]] is visiting through July 2012
+* 2012-03-12: Mary Sheeran and John Hughes teach [[a new course on Parallell Functional Programming -> http://www.cse.chalmers.se/edu/course/pfp/]]
+* 2011-07-01: [[Haskell Symposium -> http://www.haskell.org/haskell-symposium/2011/]] paper accepted: "[[Embedded Parser Generators]]", Jonas Duregård and Patrik Jansson
+* 2011-06-21: [[ICFP paper -> http://www.icfpconference.org/icfp2011/accepted.html]] accepted: "[[Incremental Updates for Efficient Bidirectional Transformations -> http://publications.lib.chalmers.se/cpl/record/index.xsql?pubid=143549]]", Meng Wang (Chalmers) and Jeremy Gibbons and Nicolas Wu (Oxford)
+* 2011-06-17: The [[RAWFP/]] project [[announces a PhD position in Functional Programming -> http://www.chalmers.se/cse/EN/news/vacancies/positions/phd-student-position-in8107]] with application deadline 2011-09-01
+* 2011-06-16/17: [[Domain Specific Languages for Economical and Environmental Modelling (DSL4EE) -> GSDP/DSL4EE]] workshop (org. by Jansson)
+* 2011-06-07: [[Jean-Philippe Bernardy -> http://www.cse.chalmers.se/~bernardy]] defended his [[PhD thesis on Parametricity -> http://publications.lib.chalmers.se/cpl/record/index.xsql?pubid=138141]]
+* 2011-04-12: [[RAWFP/]] application granted with 25M SEK (5M SEK / year for five years)
+* 2011-03-01: We welcome Meng Wang (PhD from Oxford, 2011) as a new PostDoc in the FP group!
+* 2010-11-24: [[RAWFP/]] application submitted to the SSF Software Intensive Systems call
+* 2010-11-08: Application deadline for an [[FP PostDoc position -> http://www.chalmers.se/cse/EN/news/vacancies/positions/post-doc-position-in3564]] with John Hughes.
+* 2010-09-16 [[Welcome back Walid! seminar]]
+* 2010-09-01: We welcome Alejandro Russo (one of the 10 applicants) as the new Assistant Professor in the FP group!
+* 2010-09-01: Johan Nordlander will come to work half-time in the FP group during the autumn 2010.
+* 2010-08-16: We welcome Jonas Duregård as a new PhD student in the [[Putting FP to work using DSLs -> FunC/]] project.

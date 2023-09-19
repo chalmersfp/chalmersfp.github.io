@@ -1,0 +1,84 @@
+The Functional Programming group in Gothenburg consists of academics and
+students interested in different aspects of Functional Programming. It
+is informally known as the "Chalmers FP group" even though there are
+group members both at Chalmers and UGOT.
+
+There is currently also an organisational unit called "Functional
+Programming" which is one of the four units in the division of Computing
+Science (which in turn is part of the department of Computer Science and
+Engineering). But there are several FP group members who
+organizationally belong to other units or even other divisions.
+
+This site is under construction (2023-09-19).
+
+FP mailing list: [[https://lists.chalmers.se/mailman/listinfo/fp]]
+
+* Success stories and expertise (from until 2016... TODO)
+- the influential testing framework QuickCheck (for Haskell and Erlang)
+- the award-winning MiniSat SAT-solver
+- the award winning [[http://www.cs.chalmers.se/~koen/folkung/][Paradox]] model finder
+- the programming language [[http://www.haskell.org][Haskell]] (part of the language development,
+  compilation, libraries, tools)
+- development of generic functional programming (polytypic programming)
+- domain specific languages (Lava, Wired, QuickCheck, Feldspar, ...)
+
+* Members:
+- John Hughes, Mary Sheeran, Patrik Jansson, Koen Lindström Claessen,
+  Alejandro Russo, Aarne Ranta
+- Nick Smallbone, Jonas Duregård, Alex Gerdes
+* Other local FP people:
+- Ulf Norell, Nils Anders Danielsson, Jean-Philippe Bernardy
+* Former members:
+- Johan Nordlander, Moa Johansson
+- Michał Pałka, Joel Svensson, Ann Lillieström, Anders Persson, Nikita
+  Frolov, Dan Rosén, Anton Ekblad, Inari Listenmaa, Irene Lobo Valbuena,
+  Maximilian Algehed, Emil Axelsson, Josef Svenningsson, Meng Wang,
+  Ramona Enache, Lennart Augustsson, Johan Jeuring, Wouter Swierstra,
+  Karol Ostrovsky, Gábor Páli, Niklas Sörensson, Cláudio Amaral, Björn
+  von Sydow, Magnus Björk
+- ...
+
+* Related Companies
+- [[http://www.quviq.com/]]
+- [[http://www.well-typed.com/]]
+
+* History
+- TODO add more recent projects and events
+- 2016-10-01: Three new student research assistants (amanuens) start in
+  the GRACeFUL project: Sólrún Einarsdóttir, Oskar Abrahamsson,
+  Björn Norgren.
+- 2016-09-16: From 2017 the FP research group will become a division.
+  The process for appointing a new head of division is ongoing.
+- 2016-06-01: Maximilian Algehed starts as a Student research assistant
+  (amanuens) in the GRACeFUL project
+- 2012-2015: "PROWESS - PROperty-based testing for Web ServiceS" (EU
+  2012-2015): John Derrick (Sheffield), John Hughes and several others
+- 2012-2014: Strongly Typed Libraries for Programs and Proofs: Patrik
+  Jansson & Jean-Philippe Bernardy
+- 2012-2014: A functional programming approach to hardware acceleration
+  of algorithms: Mary Sheeran
+- 2012-2015: SecOpen: Securing open development platforms: Alejandro
+  Russo
+- ?-?: RAWFP
+- 2010-2013: Global Systems Dynamics and Policy: Patrik Jansson, EU
+  2010-2013
+- 2009-2012: "Putting Functional Programming to Work - Software Design
+  and Verification using Domain Specific Languages"
+- 2010-2013: "Domain Specific Language for Real-Time Embedded
+  Software" - A. Persson at Ericsson
+- 2009-2011: J. Hughes: Language terms as test data for property-based
+  testing
+- 2007-2011: Property-based Testing, John Hughes,
+  [[http://www.protest-project.eu/]]
+- ?-?: Feldspar ([[http://feldspar.github.com]]) - Domain-specific
+  language for digital signal processing
+- Lava: [[http://www.cse.chalmers.se/~koen/Lava]] - Hardware description
+  in Haskell
+- Wired: [[http://www.cse.chalmers.se/~emax/wired]] - Layout- and
+  wire-aware hardware description
+- 2010: Chalmers FP Workshop
+- 2009: Chalmers FP Workshop
+- Old page: [[http://www.cs.chalmers.se/Cs/Research/Functional/]]
+- 2008: the fourth Haskell Hackathon was at Chalmers on Apr 11-13, 2008.
+  [[http://haskell.org/haskellwiki/Hac4]]
+
