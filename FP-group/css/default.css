@@ -1,5 +1,6 @@
 html {
-  font-size: 62.5%;
+    width: device-width;
+    font-size: 80%;
 }
 
 body {

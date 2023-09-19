@@ -1,0 +1,10 @@
+#+TITLE: New Chalmers FP group page
+#+AUTHOR: Patrik Jansson
+
+* New Chalmers FP group page
+
+The Chalmers (and UGOT) Functional Programming group has not been very
+good at keeping a homepage alive. There was [[https://wiki.portal.chalmers.se/cse/pmwiki.php/FP/FP][a wiki]] until around 2016,
+but not much after that. I (Patrik) have now been following the [[https://jaspervdj.be/hakyll/tutorials/01-installation.html][Hakyll
+tutorial]] to set up a bare minimum new page that we can imrpve over
+time.

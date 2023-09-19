@@ -1,7 +1,0 @@
-#+TITLE: Test blog entry
-#+AUTHOR: Patrik Jansson
-
-* 2023-09-19: Patrik trying out Hakyll
-
-This is a test of blog entries.
-I've been following the [[https://jaspervdj.be/hakyll/tutorials/01-installation.html][Hakyll tutorial]].
