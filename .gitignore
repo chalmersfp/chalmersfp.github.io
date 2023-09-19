@@ -1,7 +1,7 @@
-Main
-Main.hi
-Main.o
-/FP-group/_cache/
-/FP-group/_site/
 *~
+/FP-group/_cache/
 /FP-group/dist-newstyle/
+/FP-group/newdist/
+old/Main
+old/Main.hi
+old/Main.o
