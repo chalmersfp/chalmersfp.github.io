@@ -26,6 +26,10 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match "series.html" $ do
+        route   $ idRoute
+        compile $ copyFileCompiler
+
     match "posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
