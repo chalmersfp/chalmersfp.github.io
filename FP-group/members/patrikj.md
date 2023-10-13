@@ -1,5 +1,8 @@
 ---
+title: Patrik Jansson (landing page)
 name: Patrik Jansson
+position: Professor
+photo: patrikja_20220902_133845.webp
 GoogleScholar: https://scholar.google.com/citations?user=eIO4EBAAAAAJ
 ResearchChalmers: https://research.chalmers.se/person/patrikj
 homepage: https://patrikja.owlstown.net/
