@@ -1,6 +1,12 @@
+{-# LANGUAGE TupleSections #-}
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+
 import           Data.Monoid (mappend)
+import           Data.Maybe (fromMaybe)
+import           Data.Ord (comparing)
+import           Data.List (sortBy)
+import           Control.Monad (liftM)
 import           Hakyll
 
 
@@ -62,7 +68,7 @@ main = hakyllWith config $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            members <- recentFirst =<< loadAll "members/*"
+            members <- byName =<< loadAll "members/*"
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "members" memberCtx (return members) `mappend`
@@ -86,3 +92,14 @@ postCtx =
 memberCtx :: Context String
 memberCtx =
     defaultContext
+
+getName :: MonadMetadata m => Item a -> m String
+getName i = 
+    fmap (fromMaybe "") $ getMetadataField (itemIdentifier i) "name"
+
+byName :: MonadMetadata m => [Item a] -> m [Item a]
+byName = sortByM getName
+  where
+    sortByM :: (Monad m, Ord k) => (a -> m k) -> [a] -> m [a]
+    sortByM f xs = liftM (map fst . sortBy (comparing snd)) $
+                   mapM (\x -> liftM (x,) (f x)) xs
