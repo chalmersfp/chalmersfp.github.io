@@ -62,9 +62,11 @@ main = hakyllWith config $ do
     match "index.html" $ do
         route idRoute
         compile $ do
+            members <- recentFirst =<< loadAll "members/*"
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
+                    listField "members" memberCtx (return members) `mappend`
+                    listField "posts"   postCtx (return posts) `mappend`
                     defaultContext
 
             getResourceBody

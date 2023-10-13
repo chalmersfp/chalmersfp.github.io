@@ -1,20 +1,17 @@
 <article>
     <section class="header">
-        $if(author)$
-            by $author$
-        $endif$
     </section>
     <section>
       <h1>$name$ (landing page)</h1>
       Links:
-      <dl>
-	<dt>Google Scholar</dt><dd>$GoogleScholar$</dd>
-	<dt>Research Chalmers</dt><dd>$ResearchChalmers$</dd>
-	<dt>Homepage</dt><dd>$homepage$</dd>
-	<dt>GitHub</dt><dd>$github$</dd>
-	<dt>ORCID</dt><dd>$orcid$</dd>
-	<dt>YouTube</dt><dd>$YouTube$</dd>
-      </dl>
+      <ul>
+	<li><a href="$GoogleScholar$">Google Scholar</a></li>
+	<li><a href="$ResearchChalmers$">Research Chalmers</a></li>
+	<li><a href="$homepage$">Homepage</a></li>
+	<li><a href="$github$">GitHub</a></li>
+	<li><a href="$orcid$">ORCID</a></li>
+	<li><a href="$YouTube$">YouTube</a></li>
+      </ul>
       
       $body$
     </section>
