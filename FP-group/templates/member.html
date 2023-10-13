@@ -5,12 +5,12 @@
       <h1>$name$ (landing page)</h1>
       Links:
       <ul>
-	<li><a href="$GoogleScholar$">Google Scholar</a></li>
-	<li><a href="$ResearchChalmers$">Research Chalmers</a></li>
-	<li><a href="$homepage$">Homepage</a></li>
-	<li><a href="$github$">GitHub</a></li>
-	<li><a href="$orcid$">ORCID</a></li>
-	<li><a href="$YouTube$">YouTube</a></li>
+$if(GoogleScholar)$<li><a href="$GoogleScholar$">Google Scholar</a></li> $endif$
+$if(ResearchChalmers)$<li><a href="$ResearchChalmers$">Research Chalmers</a></li> $endif$
+$if(homepage)$<li><a href="$homepage$">Homepage</a></li> $endif$
+$if(github)$<li><a href="$github$">GitHub</a></li> $endif$
+$if(orcid)$<li><a href="$orcid$">ORCID</a></li> $endif$
+$if(youtube)$<li><a href="$youtube$">YouTube</a></li>           $endif$
       </ul>
       
       $body$
