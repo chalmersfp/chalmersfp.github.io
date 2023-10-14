@@ -140,3 +140,41 @@ article .header {
     font-size: 1.8rem;
   }
 }
+
+@media (min-width: 1000px) {
+  body {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+  }
+  header {
+    margin: 0 0 3rem;
+    padding: 1.2rem 0;
+  }
+  nav {
+    margin: 0;
+    text-align: right;
+  }
+  nav a {
+    margin: 0 0 0 1.2rem;
+    display: inline;
+  }
+  footer {
+    text-align: right;
+  }
+  .logo {
+    margin: 0;
+    text-align: left;
+  }
+  .logo a {
+    float: left;
+    font-size: 1.8rem;
+  }
+}
+
+#photo {
+    float: right;
+    margin: 0 0 0 15px;
+    width: 240pt; height: 240pt; 	    
+    object-fit: cover
+}

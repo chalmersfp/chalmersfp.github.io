@@ -2,10 +2,7 @@
     <section class="header">
     </section>
     <section>
-      $if(photo)$<img src="../images/$photo$"
-		      style="object-fit: cover; position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 240pt; height: 240pt; ">
-      <!-- TODO the style should be set elsewhere ... -->
-      $endif$
+      $if(photo)$<img src="../images/$photo$" id=photo> $endif$
       Links:
       <ul>
 $if(GoogleScholar)$<li><a href="$GoogleScholar$">Google Scholar</a></li> $endif$
