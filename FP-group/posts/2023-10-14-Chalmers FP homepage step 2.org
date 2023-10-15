@@ -1,0 +1,17 @@
+#+TITLE: Chalmers FP homepage, step 2
+#+AUTHOR: Patrik Jansson
+
+After this initial draft, with some minimal information about the FP unit professors added, it is now time to broaden it to cover at least the FP unit.
+Many TODOs remain:
+
++ adding more members,
++ adding pictures,
++ integrating the FP-talk series,
++ publication lists,
++ better formatting / style / layout,
++ [your own idea here;-]
++ etc.
+
+Input, and help, is highly appreciated.
+
+/P
