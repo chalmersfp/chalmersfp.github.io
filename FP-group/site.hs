@@ -82,6 +82,8 @@ main = hakyllWith config $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+-- TODO: perhaps use matchMetadata to group members by position
+-- (seperate Professors, PhD students, etc.)
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
