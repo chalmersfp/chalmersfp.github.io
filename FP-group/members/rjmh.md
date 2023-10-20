@@ -10,6 +10,6 @@ date: 2023-10-13
 ---
 Functional programming enthusiast, Haskell design committee member and
 co-Chair, property-based testing evangelist, QuickCheck
-co-inventor. ACM Fellow "for contributions to software testing and
-functional programming." 
+co-inventor, co-founder of Quviq AB. ACM Fellow "for contributions to
+software testing and functional programming." 
 
