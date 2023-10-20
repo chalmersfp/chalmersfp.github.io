@@ -1,5 +1,6 @@
 ---
 name: Carl-Johan (Carl) Seger
+photo: photo_carl_seger.jpg
 title: Carl-Johan Seger (landing page)
 position: Research Professor
 GoogleScholar: https://scholar.google.com/citations?user=MACCA0cAAAAJ&hl=en
