@@ -3,7 +3,7 @@ title: Alex Gerdes
 name: Alex Gerdes
 position: Senior Lecturer
 photo: alexg.jpg
-homepage: https://www.botkes.nl/
+homepage: http://www.botkes.nl/
 GoogleScholar: https://scholar.google.com/citations?user=_kF0bAMAAAAJ&hl=en&oi=ao
 github: https://github.com/alexgerdes
 date: 2023-10-25
