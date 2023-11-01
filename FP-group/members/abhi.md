@@ -2,7 +2,7 @@
 title: Abhiroop Sarkar
 name: Abhiroop Sarkar
 position: PhD Student
-photo: 
+photo: abhi.JPG
 homepage: https://abhiroop.github.io/
 GoogleScholar: https://scholar.google.com/citations?user=Ghdg80sAAAAJ&hl=en&oi=ao
 github: https://github.com/Abhiroop
