@@ -1,0 +1,29 @@
+#+TITLE: How to come here to study for a MSc or PhD
+#+AUTHOR: Patrik Jansson
+
+This post collects some links useful in answers to emails about
+"Seeking PhD position" or "Prospective MSc student".
+
+The CSE department (shared between [[https://www.chalmers.se/en/][Chalmers]] and [[https://www.gu.se/en][UGOT]]) offers education
+programmes at BSc, MSc, and PhD (doctoral) level. The admission to BSc
+and MSc programmes is handled nationally for all Swedish universities
+at http://www.universityadmissions.se/ and a good description of the
+application procedure is available [[https://www.chalmers.se/en/education/application-and-admission/][on Chalmers central pages]]. The CSE
+information is [[https://www.chalmers.se/en/departments/cse/education/][available here]].
+
+The doctoral education is handled differently, and each PhD position
+is announced openly as an (academic) employment opportunity here
+
+  https://www.chalmers.se/en/about-chalmers/work-with-us/vacancies/
+
+Pick "Computer Science and Engineering" as the department and "PhD
+Student Positions" as "profession".
+
+----
+
+If your interests match that of the Functional Programming Group, do
+get in touch, but please note that the formal application for education
+programmes or PhD positions is not handled "locally" by us.
+
+Kind regards,
+  Patrik Jansson
