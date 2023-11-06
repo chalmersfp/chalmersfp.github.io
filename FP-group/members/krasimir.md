@@ -2,9 +2,10 @@
 title: Krasimir Angelov
 name: Krasimir Angelov
 position: Associate Professor
+photo: https://www.cse.chalmers.se/~krasimir/me.jpg
 GoogleScholar: https://scholar.google.se/citations?user=yM_mpAEAAAAJ&hl=en
 ResearchChalmers: https://research.chalmers.se/person/krasimir
 github: https://github.com/krangelov
-date: 2023-10-23
+date: 2023-11-6
 ---
-TODO
+A computer scientists with interests in Functional Programming, Programming Languages and Compilers, Low-level hacking, Natural Languages, Physics and Math. One of the developers of [Grammatical Framework](https://www.grammaticalframework.org).
