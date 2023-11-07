@@ -2,7 +2,7 @@
 title: Krasimir Angelov
 name: Krasimir Angelov
 position: Associate Professor
-photo: https://www.cse.chalmers.se/~krasimir/me.jpg
+photo: krasimir.jpg
 GoogleScholar: https://scholar.google.se/citations?user=yM_mpAEAAAAJ&hl=en
 ResearchChalmers: https://research.chalmers.se/person/krasimir
 github: https://github.com/krangelov
