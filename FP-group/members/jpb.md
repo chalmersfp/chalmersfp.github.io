@@ -1,7 +1,7 @@
 ---
 title: Jean-Philippe Bernardy (landing page)
 name: Jean-Philippe Bernardy
-position: Senior Lecturer
+position: Associate Professor
 github: https://github.com/jyp
 orcid: https://orcid.org/0000-0002-8469-5617
 homepage: http://jyp.github.io/
