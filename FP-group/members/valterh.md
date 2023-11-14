@@ -3,7 +3,7 @@ title: Henrik Valter (landing page)
 name: Henrik Valter
 position: PhD Student
 homepage: https://www.chalmers.se/en/persons/valterh/
-photo: henrik.jpg
+photo: henrik.png
 date: 2023-11-14
 ---
 
