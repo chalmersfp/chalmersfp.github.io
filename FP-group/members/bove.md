@@ -3,7 +3,7 @@ title: Ana Bove (landing page)
 name: Ana Bove
 position: Associate Professor
 GoogleScholar: https://scholar.google.com/citations?user=TlzYOeYAAAAJ&hl=en
-ResearchChalmers: https://research.chalmers.se/en/person/212
+ResearchChalmers: https://research.chalmers.se/en/person/bove
 homepage: https://www.cse.chalmers.se/~bove/
 orcid: https://orcid.org/0000-0002-4723-9372
 date: 2025-03-26
@@ -12,7 +12,7 @@ I am an Associate Professor (Docent) at the Computing Science division
 of the department of Computer Science and Engineering at Chalmers 
 university of technology and University of Gothenburg in Göteborg, Sweden.
 
-Since 1995 I work in /Constructive Type Theory/ and, in particular, 
+Since 1995 I work in *Constructive Type Theory* and, in particular, 
 Martin-Löf type theory.
 
 Constructive type theory is a very expressive programming language with 
