@@ -4,7 +4,7 @@ name: Henrik Jansson Valter
 position: PhD Student
 homepage: https://www.chalmers.se/en/persons/valterh/
 photo: henrik.png
-date: 2023-11-14
+date: 2025-03-26
 ---
 
 I am a PhD student working with Carl Seger and Mary Sheeran.
