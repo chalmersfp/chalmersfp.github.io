@@ -1,6 +1,6 @@
 ---
-title: Henrik Valter (landing page)
-name: Henrik Valter
+title: Henrik Jansson Valter (landing page)
+name: Henrik Jansson Valter
 position: PhD Student
 homepage: https://www.chalmers.se/en/persons/valterh/
 photo: henrik.png
