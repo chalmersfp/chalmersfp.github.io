@@ -2,15 +2,16 @@ name: Build and deploy site
 on:
   push:
     branches: [master]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
+# One run per branch/PR; a newer push replaces an older run of the same ref,
+# but a PR build never cancels a deploy from master.
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -30,11 +31,17 @@ jobs:
       - name: Build site
         run: cd FP-group && cabal update && cabal run site -- build
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: docs
   deploy:
+    # Pull requests only get the build check; only master is deployed.
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

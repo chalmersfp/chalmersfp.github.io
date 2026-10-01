@@ -1,0 +1,9 @@
+# Opens pull requests when newer versions of the GitHub Actions used in
+# .github/workflows/ are released. (Haskell dependencies are pinned
+# manually in FP-group/cabal.project and cabal.project.freeze.)
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
