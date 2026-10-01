@@ -1,7 +1,7 @@
 ---
 name: John Hughes
 title: John Hughes (landing page)
-position: Professor
+position: Professor Emeritus
 homepage: https://www.cse.chalmers.se/~rjmh
 GoogleScholar: https://scholar.google.com/citations?user=adD4xmAAAAAJ&hl=en&oi=ao
 ResearchChalmers: https://research.chalmers.se/en/person/rjmh

@@ -9,11 +9,9 @@ Science (which in turn is part of the department of Computer Science and
 Engineering). But there are several FP group members who
 organizationally belong to other units or even other divisions.
 
-This site is under construction (2023-09-19).
+FP mailing list: [[https://lists.chalmers.se/sympa/info/fp]]
 
-FP mailing list: [[https://lists.chalmers.se/mailman/listinfo/fp]]
-
-* Success stories and expertise (from until 2016... TODO)
+* Success stories and expertise (as of 2016)
 - the influential testing framework QuickCheck (for Haskell and Erlang)
 - the award-winning MiniSat SAT-solver
 - the award winning [[http://www.cs.chalmers.se/~koen/folkung/][Paradox]] model finder
@@ -47,7 +45,6 @@ FP mailing list: [[https://lists.chalmers.se/mailman/listinfo/fp]]
 - [[http://www.well-typed.com/]]
 
 * History
-- TODO add more recent projects and events
 - 2016-10-01: Three new student research assistants (amanuens) start in
   the GRACeFUL project: Sólrún Einarsdóttir, Oskar Abrahamsson,
   Björn Norgren.
