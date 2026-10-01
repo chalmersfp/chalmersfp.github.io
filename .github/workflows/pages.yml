@@ -1,0 +1,43 @@
+name: Build and deploy site
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: haskell-actions/setup@v2
+        with:
+          ghc-version: '9.6.7'
+          cabal-version: '3.14'
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cabal/store
+          key: cabal-${{ runner.os }}-${{ hashFiles('FP-group/cabal.project', 'FP-group/cabal.project.freeze') }}
+          restore-keys: cabal-${{ runner.os }}-
+      - name: Build site
+        run: cd FP-group && cabal update && cabal run site -- build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

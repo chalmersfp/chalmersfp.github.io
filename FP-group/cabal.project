@@ -1,0 +1,5 @@
+packages: .
+with-compiler: ghc-9.6.7
+-- Hackage snapshot used for dependency resolution (together with cabal.project.freeze).
+-- To upgrade: bump this, delete cabal.project.freeze, run `cabal freeze`, rebuild.
+index-state: 2026-10-01T17:54:09Z
