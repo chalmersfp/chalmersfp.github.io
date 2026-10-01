@@ -10,7 +10,7 @@ make
   and check the generated pages in docs/. (The first local build
   compiles Hakyll's dependencies and can take 15-20 minutes.)
 
-Note: during the transition from the old setup, docs/ is still committed.
-Once the workflow has deployed successfully (Settings -> Pages -> Source:
-"GitHub Actions"), docs/ can be removed from the repository and added to
-.gitignore.
+Note: docs/ is generated and not committed (it is listed in .gitignore).
+The Hakyll dependencies are pinned in FP-group/cabal.project (index-state)
+and FP-group/cabal.project.freeze; see the comments in cabal.project for
+how to upgrade them.
