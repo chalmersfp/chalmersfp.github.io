@@ -1,0 +1,11 @@
+---
+title: "FP group page update + deploy automation"
+author: Patrik Jansson
+---
+#+TITLE: FP group page update + deploy automation
+#+AUTHOR: Patrik Jansson
+
+Inspired by Alex's drive to create an official FP-unit page, I sat down to also update this site.
+A few new pages, some status updates, and a new CI script that builds and deploys the pages, which hopefully makes the site easier to maintain.
+
+/P
