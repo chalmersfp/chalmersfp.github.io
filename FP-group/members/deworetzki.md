@@ -3,7 +3,7 @@ title: Niklas Deworetzki (landing page)
 name: Niklas Deworetzki
 position: PhD Student
 photo: deworetzki.jpg
-Homepage: https://deworetzki.dev/
+homepage: https://deworetzki.dev/
 github: https://github.com/Niklas-Deworetzki/
 GoogleScholar: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=C63nPZIAAAAJ
 GUP: https://gup.ub.gu.se/publications/list?person_id=1252839
